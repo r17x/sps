@@ -1,0 +1,1 @@
+use flake github:r17x/nixpkgs#pnpm

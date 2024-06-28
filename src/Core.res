@@ -61,8 +61,8 @@ type player =
 
 let playerToString = player =>
   switch player {
-  | Human => "Human"
-  | Computer => "Computer"
+  | Human => "Manusia"
+  | Computer => "Komputer"
   }
 
 let players = [Human, Computer]

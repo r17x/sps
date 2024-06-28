@@ -28,13 +28,13 @@ let make = () => {
   | (list{}, Some(Computer as player)) =>
     [
       <label key={player->Core.playerToString}>
-        {`Play with: ${player->Core.playerToString}`->React.string}
+        {`Bermain dengan: ${player->Core.playerToString}`->React.string}
       </label>,
     ]->Array.concat(suitSelections)
   | (histories, Some(Computer as player)) =>
     [
       <label key={player->Core.playerToString}>
-        {`Play with: ${player->Core.playerToString}`->React.string}
+        {`Bermain dengan: ${player->Core.playerToString}`->React.string}
       </label>,
     ]
     ->Array.concat(
